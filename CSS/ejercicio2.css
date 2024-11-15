@@ -1,0 +1,11 @@
+h1{font-size:50px;text-shadow: 3px 3px 5px #aaa;}
+h1{font-size:50px;}
+h1:hover{text-shadow: -3px -3px 5px #aaa;}
+h1{border-radius: 20px;}
+h1 {
+    width: 300px;
+    border: 15px solid rgb(63, 214, 63);
+    padding: 50px;
+    margin: 20px;
+    box-shadow: -3px -3px 5px;
+  }

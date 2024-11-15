@@ -1,0 +1,12 @@
+section {
+    width: 70%;
+    margin: 40px auto;
+    padding: 1em;
+    position: relative;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+}
+

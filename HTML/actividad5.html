@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <section>
+            <audio autoplay controls>
+                <source src="Borgore - Unicorn zombie apocalypse @ Animal Sound 2022.mp3" >
+                <source src="Borgore - Unicorn zombie apocalypse @ Animal Sound 2022.ogg" >
+                </audio>
+                
+        </section>
+        <hr>
+        <section>
+            <video id="video" width="100%" poster="lsd_poster.jpg" autoplay>
+                <source src="lsd_video.mp4">
+                <source src="lsd_video.mp4">
+                </video>
+                <script>
+                    let video = document.getElementById("video");
+                    video.onclick = function () {
+                        if (!video.paused && !video.ended) {
+                            video.pause();
+                        } else {
+                            video.play();
+                        }
+                    }   
+                </script>
+        </section>
+    </main>
+</body >    
+</html>
